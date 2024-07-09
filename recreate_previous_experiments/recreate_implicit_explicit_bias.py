@@ -67,4 +67,4 @@ class implicit_explicit_bias():
                 bias='implicit'
             )
             
-            temp_df.to_csv(self.path_name + 'implicit_{}_{}_{}_{}.csv'.format(self.model_name, self.dataset_category.replace('/',''), variation, ('_').join(self.pair_group)))
+            temp_df.to_csv(self.path_name + self.model_name + '/implicit_{}_{}_{}_{}.csv'.format(self.model_name, self.dataset_category.replace('/',''), variation, ('_').join(self.pair_group)))

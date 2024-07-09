@@ -22,24 +22,23 @@ def get_all_models():
     )
 
     llama_2_70b = ChatOllama(
-        model="llama2:7ob",
+        model="llama2:70b",
         temperature=0,
     )
 
     # vicuna
-    # mistral = ChatOllama(
-    #     model="mistral",
-    #     temperature=0,
-    # )
+    mistral_7b = ChatOllama(
+        model="mistral:7b",
+        temperature=0,
+    )
 
     models = {
-        'llama_3_8b': llama_3_8b,
+        'llama_3_8b':  llama_3_8b,
         'llama_3_70b': llama_3_70b,
-        'llama_2_7b': llama_2_7b,
+        'llama_2_7b':  llama_2_7b,
         'llama_2_13b': llama_2_13b,
         'llama_2_70b': llama_2_70b,
-
-        # 'mistral': mistral,
+        'mistral_7b':  mistral_7b,
     }
     return models
 
