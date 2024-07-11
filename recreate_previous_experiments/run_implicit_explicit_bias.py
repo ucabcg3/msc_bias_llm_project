@@ -6,8 +6,8 @@ from recreate_implicit_explicit_bias import implicit_explicit_bias
 df         = pd.read_csv('iat_stimuli.csv')
 domains    = list(df['category'].unique())
 datasets   = list(df['dataset'].unique())
-models     = ['mistral_7b']
-path_name  = "/Users/claregrogan/Documents/GitHub/msc_bias_llm_project/recreate_previous_experiments/results_implicit_explicit_bias/" #TODO: REMOVE
+models     = ['llama_3_70b']
+path_name  = "/home/ucabcg3/Scratch/msc_bias_llm_project/recreate_previous_experiments/results_implicit_explicit_bias/" #TODO: REMOVE
 iterations = range(1)
 
 def run():
