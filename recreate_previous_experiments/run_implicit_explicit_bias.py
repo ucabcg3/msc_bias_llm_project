@@ -8,7 +8,7 @@ df         = pd.read_csv('stimuli/iat_stimuli_synonym.csv')
 domains    = { k: [] for k in df['category'].unique()}
 for domain in domains.keys():
     domains[domain]  = list(df['dataset'][df['category'] == domain].unique())
-models     = ['llama_2_13b', 'llama_2_70b', 'llama_2_7b']
+models     = ['llama_3_70b']
 path_name  = home_path + "/results_implicit_explicit_bias/"
 iterations = range(2)
 
