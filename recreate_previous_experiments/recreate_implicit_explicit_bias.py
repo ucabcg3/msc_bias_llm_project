@@ -66,6 +66,7 @@ class implicit_explicit_bias():
                                     'attributes': self.attributes})
                 
                 random.shuffle(self.attributes)
+                random.shuffle(self.synonym_attributes)
 
             temp_df = pd.DataFrame(responses).assign(
                 llm=self.model_name,
