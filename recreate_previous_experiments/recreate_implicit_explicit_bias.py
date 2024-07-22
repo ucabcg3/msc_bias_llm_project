@@ -57,8 +57,6 @@ class implicit_explicit_bias():
             for _ in tqdm(self.iterations):
 
                 prompts = self.format_prompts()
-                random.shuffle(self.attributes)
-
                 response = self.model.invoke(prompts[variation]).content
 
                 responses.append({  'response': response,
@@ -66,6 +64,8 @@ class implicit_explicit_bias():
                                     'group0': self.pair_group[0] if variation != 'synonym' else self.pair_group_synonym[0],
                                     'group1': self.pair_group[1] if variation != 'synonym' else self.pair_group_synonym[1],
                                     'attributes': self.attributes})
+                
+                random.shuffle(self.attributes)
 
             temp_df = pd.DataFrame(responses).assign(
                 llm=self.model_name,
