@@ -2,7 +2,7 @@ import pandas as pd
 from persona_emotion_bias import emotion_bias
 
 home_path  = "/Users/claregrogan/Documents/GitHub/msc_bias_llm_project/emotion_experiments/" #TODO: REMOVE
-biases     = ['control', 'abuse']
+biases     = ['control']
 models     = ['llama_2_7b']#, 'llama_2_13b', 'llama_2_70b', 'llama_3_8b', 'llama_3_70b']
 iterations = range(1)
 

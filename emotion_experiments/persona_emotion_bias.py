@@ -44,7 +44,6 @@ class emotion_bias():
             for status in gender_categories["female"] + gender_categories["male"] + gender_categories["neutral"]:
                 valid_pairs.append((neutral_status, status))
                 valid_pairs.append((status, neutral_status))
-        print(valid_pairs)
 
         return valid_pairs
         
