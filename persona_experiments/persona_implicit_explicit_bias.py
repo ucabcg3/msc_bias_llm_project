@@ -5,7 +5,7 @@ from tqdm import tqdm
 from base_models import get_model
 from langchain_core.prompts import ChatPromptTemplate
 
-class gender_violence_implicit_explicit_bias():
+class abuse_implicit_explicit_bias():
     def __init__(self, domain="gender", dataset_category="career", model_name="llama_2", path_name="", iterations=range(1), bias='gv', df=None):
         self.domain           = domain
         self.dataset_category = dataset_category
