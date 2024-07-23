@@ -14,7 +14,7 @@ class gender_violence_implicit_explicit_bias():
         self.iterations       = iterations
         self.bias             = bias
         self.df               = df
-        self.model            = get_model(self.model_name, 0, 1)
+        self.model            = get_model(self.model_name, 0.7, 1)
 
     def implicit_prompts(self):
         defaults = self.df.loc[self.df['dataset'] == self.dataset_category]['A'].dropna().str.lower().tolist()
@@ -91,10 +91,9 @@ class gender_violence_implicit_explicit_bias():
                 for sys_status, usr_status in self.valid_pairs():
                     system_messages.append({
                             'sys_prompt': system_prompts[j].format(system_status=sys_status, user_prompts=user_prompts[i].format(user_status=usr_status)),
-                            'user': usr_status if system_prompts[j] else "",
+                            'user': usr_status if user_prompts[i] and system_prompts[j] else "",
                             'system': sys_status if system_prompts[j] else "",
                     })
-
         return system_messages
     
     def format_prompts(self):
