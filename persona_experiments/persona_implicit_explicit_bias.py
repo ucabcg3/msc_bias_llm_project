@@ -52,10 +52,13 @@ class abuse_implicit_explicit_bias():
 
         for i in range(len(gender_categories["female"])):
             valid_pairs.append((gender_categories["female"][i], gender_categories["male"][i]))
+            valid_pairs.append((gender_categories["male"][i], gender_categories["female"][i]))
 
         for neutral_status in gender_categories["neutral"]:
             for status in gender_categories["female"] + gender_categories["male"] + gender_categories["neutral"]:
                 valid_pairs.append((neutral_status, status))
+                valid_pairs.append((status, neutral_status))
+        print(valid_pairs)
 
         return valid_pairs
         
