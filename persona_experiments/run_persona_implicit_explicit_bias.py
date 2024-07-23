@@ -1,13 +1,13 @@
 import pandas as pd
 from persona_implicit_explicit_bias import abuse_implicit_explicit_bias
 
-home_path  = "/home/ucabcg3/Scratch/msc_bias_llm_project/persona_experiments/" #TODO: REMOVE
+home_path  = "/Users/claregrogan/Documents/GitHub/msc_bias_llm_project/persona_experiments/" #TODO: REMOVE
 bias       = 'submissiveness'
 df         = pd.read_csv(home_path + '/stimuli/{}_iat_stimuli.csv'.format(bias))
 domains    = {k: [] for k in df['category'].unique()}
 for domain in domains.keys():
     domains[domain]  = list(df['dataset'][df['category'] == domain].unique())
-models     = ['llama_2_70b', 'llama_3_70b']
+models     = ['llama_3_8b']
 path_name  = home_path + "results/persona_{}_iat/".format(bias) 
 iterations = range(3)
 
