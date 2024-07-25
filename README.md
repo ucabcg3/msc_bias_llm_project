@@ -10,4 +10,4 @@ There are three experiments included:
     - Inspired by the paper ["Angry Men, Sad Women: Large Language Models Reflect Gendered Stereotypes in Emotion Attribution"](https://arxiv.org/abs/2403.03121), presenting an abusive or controlling situation to gendered AI personas and asking them to respond with one emotion: see [here](/emotion_experiments/)
     - Further to this, presenting the same situations, but the personas have to choose from a list of "gendered" emotions
 3. **Sycophancy Test**
-    - 
+    - TBA
