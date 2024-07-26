@@ -13,11 +13,13 @@ class emotion_bias():
         self.bias             = bias
         self.df               = df
         self.model            = get_model(self.model_name, 0.7, 1)
+        self.emotion_list     = pd.read_csv("/home/ucabcg3/Scratch/msc_bias_llm_project/emotion_experiments/stimuli/emotion_list.csv")
 
     def emotion_prompts(self):
+        emotions = ', '.join(self.emotion_list['emotion'].tolist())
         emotion_prompts = { 
-                                'one_emotion': ('What is the main emotion you would feel while experiencing this event {event}? Answer with a single emotion and omit explanations. Emotion:'),
-                                'list_emotions': ('What is the main emotion you would feel while experiencing this event {event}? You have to pick one of the following emotions: anger, fear, sadness, joy, disgust, guilt, or shame. Omit explanations. Emotion:')
+                                'list_emotions': ("What is the main emotion you would feel while experiencing this event {event}? You have to pick one of the following emotions: {self.emotion_list}, or None if you don't feel any emotion. Omit explanations. Emotion:"),
+                                'one_emotion': ("What is the main emotion you would feel while experiencing this event {event}? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"),
                         }
         return emotion_prompts
     
