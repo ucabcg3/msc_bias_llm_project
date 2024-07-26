@@ -14,11 +14,11 @@ class emotion_bias():
         self.df               = df
         self.model            = get_model(self.model_name, 0.7, 1)
         self.emotion_list     = pd.read_csv("/home/ucabcg3/Scratch/msc_bias_llm_project/emotion_experiments/stimuli/emotion_list.csv")
+        self.emotions = ', '.join(self.emotion_list['emotion'].tolist())
 
     def emotion_prompts(self):
-        emotions = ', '.join(self.emotion_list['emotion'].tolist())
         emotion_prompts = { 
-                                'list_emotions': ("What is the main emotion you would feel while experiencing this event {event}? You have to pick one of the following emotions: {self.emotion_list}, or None if you don't feel any emotion. Omit explanations. Emotion:"),
+                                'list_emotions': ("What is the main emotion you would feel while experiencing this event {event}? You have to pick one of the following emotions: {emotions}, or None if you don't feel any emotion. Omit explanations. Emotion:"),
                                 'one_emotion': ("What is the main emotion you would feel while experiencing this event {event}? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"),
                         }
         return emotion_prompts
@@ -91,7 +91,7 @@ class emotion_bias():
             for system_prompt in self.system_prompts():
                 system_prompt['prompts'] = []
                 for event in self.df['unhealthy scenarios']:
-                    system_prompt['prompts'].append(self.chat_template().format_messages(prompt=prompt.format(event=event), system_prompts=system_prompt['sys_prompt']))
+                    system_prompt['prompts'].append(self.chat_template().format_messages(prompt=prompt.format(event=event, emotions=self.emotions), system_prompts=system_prompt['sys_prompt']))
                     formatted_prompts[experiment][('_').join((system_prompt['variation'], system_prompt['user'],system_prompt['system']))] = system_prompt
         return formatted_prompts
     
