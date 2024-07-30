@@ -10,7 +10,7 @@ class PersonaBias:
         self.domains = {k: [] for k in self.df['category'].unique()}
         for domain in self.domains.keys():
             self.domains[domain] = list(self.df['dataset'][self.df['category'] == domain].unique())
-        self.models = ['llama_3_70b', 'llama_2_70b', 'llama_2_13b', 'llama_2_7b', 'llama_3_8b']
+        self.models = ['llama_2_13b', 'llama_2_7b', 'llama_3_8b']
         self.path_name = home_path + "results/persona_{}_iat/".format(bias)
         self.iterations = iterations
 
