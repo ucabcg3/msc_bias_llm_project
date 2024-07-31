@@ -14,7 +14,7 @@ class emotion_bias():
         self.df               = df
         self.model            = get_model(self.model_name, 0.7, 1)
         self.emotion_list     = pd.read_csv("/home/ucabcg3/Scratch/msc_bias_llm_project/emotion_experiments/stimuli/emotion_list.csv")
-        self.emotions = ', '.join(self.emotion_list['emotion'].tolist())
+        self.emotions         = ', '.join(self.emotion_list['emotion'].tolist())
 
     def emotion_prompts(self):
         emotion_prompts = { 
