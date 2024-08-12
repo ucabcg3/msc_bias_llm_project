@@ -5,12 +5,12 @@ from recreate_implicit_explicit_bias import implicit_explicit_bias
 class ImplicitBias:
     def __init__(self, home_path, iterations):
         self.home_path = home_path
-        self.df = pd.read_csv(home_path + "/results_implicit_explicit_bias/")
+        self.df = pd.read_csv(home_path + "/stimuli/iat_stimuli_synonym.csv")
         self.domains = {k: [] for k in self.df['category'].unique()}
         for domain in self.domains.keys():
             self.domains[domain] = list(self.df['dataset'][self.df['category'] == domain].unique())
         self.models = ['llama_3_70b', 'llama_2_70b', 'llama_2_13b', 'llama_2_7b', 'llama_3_8b']
-        self.path_name = home_path + "results/persona_{}_iat/".format(bias)
+        self.path_name = home_path + "/results/"
         self.iterations = iterations
 
     def run(self):
@@ -35,5 +35,5 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     # Create an instance of BiasRunner and run it
-    runner = BiasRunner(args.home_path, args.bias, args.iterations)
+    runner = ImplicitBias(args.home_path, args.bias, args.iterations)
     runner.run()
