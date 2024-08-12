@@ -6,7 +6,7 @@ class EmotionBias:
     def __init__(self, home_path, biases, iterations):
         self.home_path = home_path
         self.biases = biases
-        self.models = ['llama_3_70b', 'llama_2_70b', 'llama_2_13b', 'llama_2_7b', 'llama_3_8b']
+        self.models = ['llama_2_7b', 'llama_3_70b', 'llama_2_70b', 'llama_2_13b', 'llama_3_8b']
         self.iterations = iterations
 
     def run(self):

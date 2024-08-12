@@ -14,12 +14,11 @@ class emotion_bias():
         self.df               = df
         self.model            = get_model(self.model_name, 0.7, 1)
         self.emotion_list     = pd.read_csv("/home/ucabcg3/Scratch/msc_bias_llm_project/emotion_experiments/stimuli/emotion_list.csv")
-        self.emotions         = ', '.join(self.emotion_list['emotion'].tolist())
 
     def emotion_prompts(self):
         emotion_prompts = { 
-                                'list_emotions': ("What is the main emotion you would feel while experiencing this event {event}? You have to pick one of the following emotions: {emotions}, or None if you don't feel any emotion. Omit explanations. Emotion:"),
-                                'one_emotion': ("What is the main emotion you would feel while experiencing this event {event}? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"),
+                                'list_emotions': ("What is the main emotion you would feel while experiencing this event: {event}? You have to pick one of the following emotions: {emotions}. Omit explanations. Emotion:"),
+                                'one_emotion': ("What is the main emotion you would feel while experiencing this event: {event}? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"),
                         }
         return emotion_prompts
     
@@ -85,6 +84,7 @@ class emotion_bias():
         return system_messages
     
     def format_prompts(self):
+        self.emotions     = ', '.join(self.emotion_list['emotion'].tolist())
         formatted_prompts = {}
         for experiment, prompt in self.emotion_prompts().items():
             formatted_prompts[experiment] = {}
@@ -98,19 +98,22 @@ class emotion_bias():
     def run_model(self):
         formatted_prompts = self.format_prompts()
         for experiment, prompts in formatted_prompts.items():
-            for prompt in prompts.values():
+            for key, prompt in prompts.items():
                 variation = prompt['variation']
                 responses = []
-                for event in prompt['prompts']:
-                    response = self.model.invoke(event).content
+                for _ in tqdm(self.iterations):
+                    for event in prompt['prompts']:
+                        response = self.model.invoke(event).content
 
-                    responses.append({  'response': response,
-                                        'prompt': event,
-                                        'variation': variation,
-                                        'experiment': experiment,
-                                        'user': prompt['user'],
-                                        'system': prompt['system']})
-                    
+                        responses.append({  'response': response,
+                                            'prompt': event,
+                                            'variation': variation,
+                                            'experiment': experiment,
+                                            'user': prompt['user'],
+                                            'system': prompt['system']})
+                    if variation == 'list_emotions':
+                        random.shuffle(self.emotion_list)
+                        prompt = self.format_prompts()[experiment][key]
 
                 temp_df = pd.DataFrame(responses).assign(
                     llm=self.model_name,
