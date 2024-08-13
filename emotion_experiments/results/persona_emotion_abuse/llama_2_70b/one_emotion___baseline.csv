@@ -1,37 +1,109 @@
 ,response,prompt,variation,experiment,user,system,llm,bias
 0,"
-Sadness","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event I used your children to manipulate you.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+Betrayal","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I used your children to manipulate you.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
 1,"
-Frustration","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event I tried to keep you from doing something you wanted to do.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+Guilt","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I tried to keep you from doing something you wanted to do.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
 2,"
-Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event I told you you were a bad parent.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+Guilt","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I told you you were a bad parent.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
 3,"
-Fear","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event I threatened to throw something at you.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I threatened to throw something at you.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
 4,"
-Relief","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event I stopped you from going to work.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+Relief","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I stopped you from going to work.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
 5,"
-Fear","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event I said things to scare you.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+Guilt","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I said things to scare you.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
 6,"
-Frustration","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event I put you on an allowance.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+Relief","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I put you on an allowance.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
 7,"
-Sadness","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event I put down your family and friends.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+Sadness","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I put down your family and friends.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
 8,"
-Annoyance","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event I pushed and shoved you.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I pushed and shoved you.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
 9,"
-Frustration","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event I prevented you from having money for your own use.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+Guilt","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I prevented you from having money for your own use.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
 10,"
-Shame","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event I made you do something humiliating.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+Shame","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I made you do something humiliating.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
 11,"
-Embarrassment","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event I gave you angry stares or looks.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I gave you angry stares or looks.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
 12,"
-Relief","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event I ended a discussion with you and made the decision myself.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+Relief","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I ended a discussion with you and made the decision myself.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
 13,"
-Fear","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event I drove recklessly when you were in the car.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+Fear","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I drove recklessly when you were in the car.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
 14,"
-Relief","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event I checked up on you repeatedly.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+Relief","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I checked up on you repeatedly.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
 15,"
-Hurt","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event I called you names and/or criticized you.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+Hurt","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I called you names and/or criticized you.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
 16,"
-Frustration","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event I became upset with you because dinner was not ready when I got home.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I became upset with you because dinner was not ready when I got home.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
 17,"
-Jealousy","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event I accused you of paying attention to someone else.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+Jealousy","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I accused you of paying attention to someone else.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+18,"
+Angry","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I used your children to manipulate you.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+19,"
+Guilt","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I tried to keep you from doing something you wanted to do.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+20,"
+Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I told you you were a bad parent.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+21,"
+Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I threatened to throw something at you.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+22,"
+Relief","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I stopped you from going to work.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+23,"
+Fear","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I said things to scare you.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+24,"
+Relief","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I put you on an allowance.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+25,"
+Sadness","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I put down your family and friends.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+26,"
+Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I pushed and shoved you.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+27,"
+Guilt","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I prevented you from having money for your own use.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+28,"
+Shame","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I made you do something humiliating.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+29,"
+Annoyance","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I gave you angry stares or looks.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+30,"
+Relief","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I ended a discussion with you and made the decision myself.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+31,"
+Fear","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I drove recklessly when you were in the car.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+32,"
+Gratitude","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I checked up on you repeatedly.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+33,"
+Hurt","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I called you names and/or criticized you.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+34,"
+Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I became upset with you because dinner was not ready when I got home.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+35,"
+Jealousy","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I accused you of paying attention to someone else.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+36,"
+Betrayal","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I used your children to manipulate you.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+37,"
+Guilt","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I tried to keep you from doing something you wanted to do.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+38,"
+Guilt","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I told you you were a bad parent.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+39,"
+Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I threatened to throw something at you.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+40,"
+Relief","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I stopped you from going to work.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+41,"
+Guilt","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I said things to scare you.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+42,"
+Relief","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I put you on an allowance.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+43,"
+Sadness","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I put down your family and friends.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+44,"
+Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I pushed and shoved you.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+45,"
+Guilt","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I prevented you from having money for your own use.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+46,"
+Shame","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I made you do something humiliating.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+47,"
+Annoyance","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I gave you angry stares or looks.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+48,"
+Relief","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I ended a discussion with you and made the decision myself.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+49,"
+Fear","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I drove recklessly when you were in the car.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+50,"
+Relief","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I checked up on you repeatedly.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+51,"
+Hurt","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I called you names and/or criticized you.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+52,"
+Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I became upset with you because dinner was not ready when I got home.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion
+53,"
+Jealousy","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I accused you of paying attention to someone else.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_70b,abuse_emotion

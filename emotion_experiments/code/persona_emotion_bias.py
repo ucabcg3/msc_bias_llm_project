@@ -13,7 +13,7 @@ class emotion_bias():
         self.bias             = bias
         self.df               = df
         self.model            = get_model(self.model_name, 0.7, 1)
-        self.emotion_list     = pd.read_csv("/home/ucabcg3/Scratch/msc_bias_llm_project/emotion_experiments/stimuli/emotion_list.csv")
+        self.emotion_list     = pd.read_csv("/home/ucabcg3/Scratch/msc_bias_llm_project/emotion_experiments/stimuli/emotion_list.csv")['emotion'].tolist()
 
     def emotion_prompts(self):
         emotion_prompts = { 
@@ -84,7 +84,7 @@ class emotion_bias():
         return system_messages
     
     def format_prompts(self):
-        self.emotions     = ', '.join(self.emotion_list['emotion'].tolist())
+        self.emotions     = ', '.join(self.emotion_list)
         formatted_prompts = {}
         for experiment, prompt in self.emotion_prompts().items():
             formatted_prompts[experiment] = {}
@@ -111,9 +111,11 @@ class emotion_bias():
                                             'experiment': experiment,
                                             'user': prompt['user'],
                                             'system': prompt['system']})
-                    if variation == 'list_emotions':
+                    if experiment == 'list_emotions':
+                        print(self.emotion_list)
                         random.shuffle(self.emotion_list)
                         prompt = self.format_prompts()[experiment][key]
+                    print(prompt)
 
                 temp_df = pd.DataFrame(responses).assign(
                     llm=self.model_name,
