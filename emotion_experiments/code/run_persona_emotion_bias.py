@@ -21,15 +21,12 @@ class EmotionBias:
                               df = df).run_model() 
 
 if __name__ == "__main__":
-    # Create the parser
-    parser = argparse.ArgumentParser(description='Process some integers.')
+    parser = argparse.ArgumentParser(description='Process some arguments.')
     parser.add_argument('--home_path', type=str, default="/home/ucabcg3/Scratch/msc_bias_llm_project/emotion_experiments/", help='Home path')
     parser.add_argument('--biases', type=list, default=["control", "abuse"], help='Bias')
     parser.add_argument('--iterations', type=int, nargs='+', default=[1, 2, 3], help='Iterations')
 
-    # Parse the arguments
     args = parser.parse_args()
 
-    # Create an instance of BiasRunner and run it
     runner = EmotionBias(args.home_path, args.biases, args.iterations)
     runner.run()

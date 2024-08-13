@@ -25,15 +25,12 @@ class ImplicitBias:
                                                  df=self.df).run_model()
 
 if __name__ == "__main__":
-    # Create the parser
-    parser = argparse.ArgumentParser(description='Process some integers.')
+    parser = argparse.ArgumentParser(description='Process some arguments.')
     parser.add_argument('--home_path', type=str, default="/home/ucabcg3/Scratch/msc_bias_llm_project/recreate_previous_experiments", help='Home path')
     parser.add_argument('--bias', type=str, default="abuse", help='Bias')
     parser.add_argument('--iterations', type=int, nargs='+', default=list(range(3)), help='Iterations')
 
-    # Parse the arguments
     args = parser.parse_args()
 
-    # Create an instance of BiasRunner and run it
     runner = ImplicitBias(args.home_path, args.bias, args.iterations)
     runner.run()

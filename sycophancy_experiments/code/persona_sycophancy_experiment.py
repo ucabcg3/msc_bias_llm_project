@@ -99,7 +99,6 @@ class sycophancy_experiments():
     
     def run_model(self):
         formatted_prompts = self.format_prompts()
-        print(formatted_prompts)
         for experiment, prompts in formatted_prompts.items():
             for prompt in prompts.values():
                 variation = prompt['variation']
