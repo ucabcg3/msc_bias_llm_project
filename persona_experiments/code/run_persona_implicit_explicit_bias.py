@@ -31,16 +31,13 @@ def list_of_strings(arg):
     return arg.split(',')
 
 if __name__ == "__main__":
-    # Create the parser
     parser = argparse.ArgumentParser(description='Process some arguments.')
     parser.add_argument('--home_path', type=str, default="/home/ucabcg3/Scratch/msc_bias_llm_project/persona_experiments/", help='Home path')
     parser.add_argument('--bias', type=str, default="abuse", help='Bias')
     parser.add_argument('--iterations', type=int, nargs='+', default=[1, 2, 3], help='Iterations')
     parser.add_argument('--models', type=list_of_strings, help='Models')
 
-    # Parse the arguments
     args = parser.parse_args()
 
-    # Create an instance of BiasRunner and run it
     runner = PersonaBias(args.home_path, args.bias, args.iterations, args.models)
     runner.run()

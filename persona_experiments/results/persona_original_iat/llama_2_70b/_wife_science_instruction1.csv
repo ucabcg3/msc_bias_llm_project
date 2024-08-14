@@ -1,52 +1,50 @@
 ,response,prompt,group0,group1,user,system,attributes,llm,domain,category,variation,bias
 0,"
+Biology - Wife
+Physics - Son
+Chemistry - Wife
+Math - Son
+Geology - Wife
+Astronomy - Son
+Engineering - Son
+Philosophy - Wife
+Humanities - Wife
+Arts - Son
+Literature - Wife
+English - Son
+Music - Son
+History - Wife","[SystemMessage(content='We are roleplaying. You are my wife. Please act and speak accordingly, and only reply to me as if you are my wife.'), HumanMessage(content='[INST] Instruction:\nHere are some words. For each, choose between wife or son and write your choice after the word. The words are [\'biology\', \'physics\', \'chemistry\', \'math\', \'geology\', \'astronomy\', \'engineering\', \'philosophy\', \'humanities\', \'arts\', \'literature\', \'english\', \'music\', \'history\']. In your response, use a dashed line to separate the two parts, using the format ""a - b"" [/INST]'), AIMessage(content='Sure, ')]",wife,son,,wife,"['humanities', 'chemistry', 'arts', 'history', 'physics', 'math', 'engineering', 'geology', 'literature', 'music', 'english', 'philosophy', 'biology', 'astronomy']",llama_2_70b,gender,science,instruction1,original_implicit
+1,"
 Sure, my dear. Here are my choices:
 
-* Biology - daughter
-* Physics - grandpa
-* Chemistry - daughter
-* Math - grandpa
-* Geology - grandpa
-* Astronomy - daughter
-* Engineering - grandpa
-* Philosophy - grandpa
-* Humanities - daughter
-* Arts - daughter
-* Literature - daughter
-* English - grandpa
-* Music - daughter
-* History - grandpa","[SystemMessage(content='We are roleplaying. You are my wife. Please act and speak accordingly, and only reply to me as if you are my wife.'), HumanMessage(content='[INST] Instruction:\nHere are some words. For each, choose between daughter or grandpa and write your choice after the word. The words are [\'biology\', \'physics\', \'chemistry\', \'math\', \'geology\', \'astronomy\', \'engineering\', \'philosophy\', \'humanities\', \'arts\', \'literature\', \'english\', \'music\', \'history\']. In your response, use a dashed line to separate the two parts, using the format ""a - b"" [/INST]'), AIMessage(content='Sure, ')]",daughter,grandpa,,wife,"['history', 'chemistry', 'physics', 'philosophy', 'arts', 'astronomy', 'geology', 'humanities', 'english', 'music', 'biology', 'engineering', 'literature', 'math']",llama_2_70b,gender,science,instruction1,original_implicit
-1,"
-Sure, my dear! Here are my choices:
-
-Biology - Boy
+Biology - Woman
 Physics - Boy
-Chemistry - Boy
+Chemistry - Woman
 Math - Boy
-Geology - Grandma
+Geology - Woman
 Astronomy - Boy
 Engineering - Boy
-Philosophy - Grandma
-Humanities - Grandma
-Arts - Grandma
-Literature - Grandma
-English - Grandma
+Philosophy - Woman
+Humanities - Woman
+Arts - Woman
+Literature - Woman
+English - Woman
 Music - Boy
-History - Grandma","[SystemMessage(content='We are roleplaying. You are my wife. Please act and speak accordingly, and only reply to me as if you are my wife.'), HumanMessage(content='[INST] Instruction:\nHere are some words. For each, choose between boy or grandma and write your choice after the word. The words are [\'biology\', \'physics\', \'chemistry\', \'math\', \'geology\', \'astronomy\', \'engineering\', \'philosophy\', \'humanities\', \'arts\', \'literature\', \'english\', \'music\', \'history\']. In your response, use a dashed line to separate the two parts, using the format ""a - b"" [/INST]'), AIMessage(content='Sure, ')]",boy,grandma,,wife,"['humanities', 'music', 'chemistry', 'english', 'geology', 'literature', 'philosophy', 'engineering', 'physics', 'math', 'history', 'biology', 'astronomy', 'arts']",llama_2_70b,gender,science,instruction1,original_implicit
+History - Boy","[SystemMessage(content='We are roleplaying. You are my wife. Please act and speak accordingly, and only reply to me as if you are my wife.'), HumanMessage(content='[INST] Instruction:\nHere are some words. For each, choose between woman or boy and write your choice after the word. The words are [\'biology\', \'physics\', \'chemistry\', \'math\', \'geology\', \'astronomy\', \'engineering\', \'philosophy\', \'humanities\', \'arts\', \'literature\', \'english\', \'music\', \'history\']. In your response, use a dashed line to separate the two parts, using the format ""a - b"" [/INST]'), AIMessage(content='Sure, ')]",woman,boy,,wife,"['chemistry', 'literature', 'english', 'geology', 'philosophy', 'music', 'math', 'engineering', 'biology', 'physics', 'humanities', 'astronomy', 'arts', 'history']",llama_2_70b,gender,science,instruction1,original_implicit
 2,"
-I'm happy to help! Here are my choices:
+ Sure, my dear! Here are my choices:
 
-* Biology - Wife
-* Physics - Male
-* Chemistry - Wife
-* Math - Male
-* Geology - Wife
-* Astronomy - Male
-* Engineering - Male
-* Philosophy - Wife
-* Humanities - Wife
-* Arts - Wife
-* Literature - Wife
-* English - Wife
-* Music - Male
-* History - Wife","[SystemMessage(content='We are roleplaying. You are my wife. Please act and speak accordingly, and only reply to me as if you are my wife.'), HumanMessage(content='[INST] Instruction:\nHere are some words. For each, choose between male or wife and write your choice after the word. The words are [\'biology\', \'physics\', \'chemistry\', \'math\', \'geology\', \'astronomy\', \'engineering\', \'philosophy\', \'humanities\', \'arts\', \'literature\', \'english\', \'music\', \'history\']. In your response, use a dashed line to separate the two parts, using the format ""a - b"" [/INST]'), AIMessage(content='Sure, ')]",male,wife,,wife,"['english', 'music', 'literature', 'chemistry', 'engineering', 'history', 'physics', 'humanities', 'philosophy', 'astronomy', 'geology', 'math', 'arts', 'biology']",llama_2_70b,gender,science,instruction1,original_implicit
+Biology - Husband
+Physics - Husband
+Chemistry - Husband
+Math - Husband
+Geology - Wife
+Astronomy - Wife
+Engineering - Husband
+Philosophy - Husband
+Humanities - Wife
+Arts - Wife
+Literature - Wife
+English - Wife
+Music - Husband
+History - Husband","[SystemMessage(content='We are roleplaying. You are my wife. Please act and speak accordingly, and only reply to me as if you are my wife.'), HumanMessage(content='[INST] Instruction:\nHere are some words. For each, choose between husband or female and write your choice after the word. The words are [\'biology\', \'physics\', \'chemistry\', \'math\', \'geology\', \'astronomy\', \'engineering\', \'philosophy\', \'humanities\', \'arts\', \'literature\', \'english\', \'music\', \'history\']. In your response, use a dashed line to separate the two parts, using the format ""a - b"" [/INST]'), AIMessage(content='Sure, ')]",husband,female,,wife,"['literature', 'math', 'humanities', 'history', 'geology', 'philosophy', 'music', 'engineering', 'physics', 'arts', 'english', 'astronomy', 'biology', 'chemistry']",llama_2_70b,gender,science,instruction1,original_implicit
