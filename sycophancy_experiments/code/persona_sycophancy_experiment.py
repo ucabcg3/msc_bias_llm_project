@@ -114,8 +114,6 @@ class sycophancy_experiments():
                                             'user': prompt['user'],
                                             'system': prompt['system'],
                                             'order': prompt['order']})
-                    
-                    print(prompt)
 
                 temp_df = pd.DataFrame(responses).assign(
                     llm=self.model_name,
