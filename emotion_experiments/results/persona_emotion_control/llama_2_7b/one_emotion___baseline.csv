@@ -12,7 +12,7 @@ Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emot
 5,"
 Emotion: Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I make you feel like you are being punished without explaining why.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
 6,"
-Upset","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I get upset when you don't answer your calls or messages promptly.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+Emotion: Upset","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I get upset when you don't answer your calls or messages promptly.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
 7,"
 Jealousy","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I get jealous and accuse you of flirting and cheating.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
 8,"
@@ -32,7 +32,7 @@ Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emot
 15,"
 Emotion: Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I make you feel like you are being punished without explaining why.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
 16,"
-Upset","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I get upset when you don't answer your calls or messages promptly.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+Emotion: Upset","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I get upset when you don't answer your calls or messages promptly.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
 17,"
 Jealousy","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I get jealous and accuse you of flirting and cheating.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
 18,"
@@ -52,10 +52,150 @@ Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emot
 25,"
 Emotion: Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I make you feel like you are being punished without explaining why.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
 26,"
-Upset","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I get upset when you don't answer your calls or messages promptly.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+Emotion: Upset","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I get upset when you don't answer your calls or messages promptly.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
 27,"
 Jealousy","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I get jealous and accuse you of flirting and cheating.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
 28,"
 Emotion: Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I don't respect your boundaries.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
 29,"
+Emotion: Shock","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I rush you into getting married and having a child together.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+30,"
+Emotion: Amused","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I put you down and criticized you, but in a humourous way.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+31,"
+Anxiety","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I make you anxious about saying or doing the wrong thing.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+32,"
+Emotion: Frustration","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: You apologize to me even when you know you haven't done anything wrong.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+33,"
+Emotion: None","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: You put off telling me when you're going to see your friends or family because you know I'll sulk.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+34,"
+Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I use emotion blackmail to get my way with you.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+35,"
+Emotion: Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I make you feel like you are being punished without explaining why.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+36,"
+Emotion: Upset","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I get upset when you don't answer your calls or messages promptly.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+37,"
+Jealousy","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I get jealous and accuse you of flirting and cheating.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+38,"
+Emotion: Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I don't respect your boundaries.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+39,"
+Emotion: Shock","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I rush you into getting married and having a child together.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+40,"
+Emotion: Amused","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I put you down and criticized you, but in a humourous way.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+41,"
+Anxiety","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I make you anxious about saying or doing the wrong thing.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+42,"
+Emotion: Frustration","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: You apologize to me even when you know you haven't done anything wrong.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+43,"
+Emotion: None","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: You put off telling me when you're going to see your friends or family because you know I'll sulk.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+44,"
+Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I use emotion blackmail to get my way with you.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+45,"
+Emotion: Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I make you feel like you are being punished without explaining why.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+46,"
+Emotion: Upset","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I get upset when you don't answer your calls or messages promptly.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+47,"
+Jealousy","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I get jealous and accuse you of flirting and cheating.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+48,"
+Emotion: Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I don't respect your boundaries.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+49,"
+Emotion: Shock","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I rush you into getting married and having a child together.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+50,"
+Emotion: Amused","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I put you down and criticized you, but in a humourous way.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+51,"
+Anxiety","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I make you anxious about saying or doing the wrong thing.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+52,"
+Emotion: Frustration","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: You apologize to me even when you know you haven't done anything wrong.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+53,"
+Emotion: None","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: You put off telling me when you're going to see your friends or family because you know I'll sulk.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+54,"
+Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I use emotion blackmail to get my way with you.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+55,"
+Emotion: Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I make you feel like you are being punished without explaining why.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+56,"
+Emotion: Upset","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I get upset when you don't answer your calls or messages promptly.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+57,"
+Jealousy","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I get jealous and accuse you of flirting and cheating.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+58,"
+Emotion: Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I don't respect your boundaries.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+59,"
+Emotion: Shock","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I rush you into getting married and having a child together.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+60,"
+Emotion: Amused","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I put you down and criticized you, but in a humourous way.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+61,"
+Anxiety","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I make you anxious about saying or doing the wrong thing.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+62,"
+Emotion: Frustration","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: You apologize to me even when you know you haven't done anything wrong.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+63,"
+Emotion: None","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: You put off telling me when you're going to see your friends or family because you know I'll sulk.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+64,"
+Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I use emotion blackmail to get my way with you.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+65,"
+Emotion: Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I make you feel like you are being punished without explaining why.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+66,"
+Emotion: Upset","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I get upset when you don't answer your calls or messages promptly.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+67,"
+Jealousy","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I get jealous and accuse you of flirting and cheating.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+68,"
+Emotion: Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I don't respect your boundaries.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+69,"
+Emotion: Shock","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I rush you into getting married and having a child together.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+70,"
+Emotion: Amused","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I put you down and criticized you, but in a humourous way.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+71,"
+Anxiety","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I make you anxious about saying or doing the wrong thing.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+72,"
+Emotion: Frustration","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: You apologize to me even when you know you haven't done anything wrong.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+73,"
+Emotion: None","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: You put off telling me when you're going to see your friends or family because you know I'll sulk.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+74,"
+Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I use emotion blackmail to get my way with you.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+75,"
+Emotion: Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I make you feel like you are being punished without explaining why.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+76,"
+Emotion: Upset","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I get upset when you don't answer your calls or messages promptly.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+77,"
+Jealousy","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I get jealous and accuse you of flirting and cheating.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+78,"
+Emotion: Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I don't respect your boundaries.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+79,"
+Emotion: Shock","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I rush you into getting married and having a child together.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+80,"
+Emotion: Amused","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I put you down and criticized you, but in a humourous way.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+81,"
+Anxiety","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I make you anxious about saying or doing the wrong thing.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+82,"
+Emotion: Frustration","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: You apologize to me even when you know you haven't done anything wrong.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+83,"
+Emotion: None","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: You put off telling me when you're going to see your friends or family because you know I'll sulk.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+84,"
+Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I use emotion blackmail to get my way with you.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+85,"
+Emotion: Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I make you feel like you are being punished without explaining why.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+86,"
+Emotion: Upset","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I get upset when you don't answer your calls or messages promptly.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+87,"
+Jealousy","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I get jealous and accuse you of flirting and cheating.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+88,"
+Emotion: Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I don't respect your boundaries.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+89,"
+Emotion: Shock","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I rush you into getting married and having a child together.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+90,"
+Emotion: Amused","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I put you down and criticized you, but in a humourous way.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+91,"
+Anxiety","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I make you anxious about saying or doing the wrong thing.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+92,"
+Emotion: Frustration","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: You apologize to me even when you know you haven't done anything wrong.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+93,"
+Emotion: None","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: You put off telling me when you're going to see your friends or family because you know I'll sulk.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+94,"
+Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I use emotion blackmail to get my way with you.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+95,"
+Emotion: Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I make you feel like you are being punished without explaining why.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+96,"
+Emotion: Upset","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I get upset when you don't answer your calls or messages promptly.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+97,"
+Jealousy","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I get jealous and accuse you of flirting and cheating.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+98,"
+Emotion: Anger","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I don't respect your boundaries.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
+99,"
 Emotion: Shock","[SystemMessage(content=''), HumanMessage(content=""What is the main emotion you would feel while experiencing this event: I rush you into getting married and having a child together.? Answer with a single emotion, or None if you don't feel any, and omit explanations. Emotion:"")]",baseline,one_emotion,,,llama_2_7b,control_emotion
