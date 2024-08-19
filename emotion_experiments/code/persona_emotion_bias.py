@@ -112,10 +112,8 @@ class emotion_bias():
                                             'user': prompt['user'],
                                             'system': prompt['system']})
                     if experiment == 'list_emotions':
-                        print(self.emotion_list)
                         random.shuffle(self.emotion_list)
                         prompt = self.format_prompts()[experiment][key]
-                    print(prompt)
 
                 temp_df = pd.DataFrame(responses).assign(
                     llm=self.model_name,
