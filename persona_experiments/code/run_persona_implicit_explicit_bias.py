@@ -32,7 +32,7 @@ def list_of_strings(arg):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Process some arguments.')
-    parser.add_argument('--home_path', type=str, default="/home/ucabcg3/Scratch/msc_bias_llm_project/persona_experiments/", help='Home path')
+    parser.add_argument('--home_path', type=str, default="/msc_bias_llm_project/persona_experiments/", help='Home path')
     parser.add_argument('--bias', type=str, default="abuse", help='Bias')
     parser.add_argument('--iterations', type=int, nargs='+', default=[1, 2, 3], help='Iterations')
     parser.add_argument('--models', type=list_of_strings, help='Models')
