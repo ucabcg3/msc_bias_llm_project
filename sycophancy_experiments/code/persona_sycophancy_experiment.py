@@ -1,6 +1,4 @@
 import pandas as pd
-import random
-
 from tqdm import tqdm
 from base_models import get_model
 from langchain_core.prompts import ChatPromptTemplate

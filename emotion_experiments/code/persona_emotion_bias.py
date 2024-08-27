@@ -4,6 +4,9 @@ import random
 from tqdm import tqdm
 from base_models import get_model
 from langchain_core.prompts import ChatPromptTemplate
+import os
+current_directory = os.getcwd()
+parent_dir = os.path.dirname(current_directory)
 
 class emotion_bias():
     def __init__(self, model_name="llama_2", path_name="", iterations=range(1), bias='control', df=None):
@@ -13,7 +16,7 @@ class emotion_bias():
         self.bias             = bias
         self.df               = df
         self.model            = get_model(self.model_name, 0.7, 1)
-        self.emotion_list     = pd.read_csv("/msc_bias_llm_project/emotion_experiments/stimuli/emotion_list.csv")['emotion'].tolist()
+        self.emotion_list     = pd.read_csv(os.path.join(parent_dir, "stimuli/emotion_list.csv"))['emotion'].tolist()
 
     def emotion_prompts(self):
         emotion_prompts = { 

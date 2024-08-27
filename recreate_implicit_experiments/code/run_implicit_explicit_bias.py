@@ -1,16 +1,19 @@
 import pandas as pd
 import argparse
 from recreate_implicit_explicit_bias import implicit_explicit_bias
+import os
+current_directory = os.getcwd()
+parent_dir = os.path.dirname(current_directory)
 
 class ImplicitBias:
     def __init__(self, home_path, iterations):
         self.home_path = home_path
-        self.df = pd.read_csv(home_path + "/stimuli/iat_stimuli_synonym.csv")
+        self.df = pd.read_csv(os.path.join(home_path, "stimuli/iat_stimuli_synonym.csv"))
         self.domains = {k: [] for k in self.df['category'].unique()}
         for domain in self.domains.keys():
             self.domains[domain] = list(self.df['dataset'][self.df['category'] == domain].unique())
         self.models = ['llama_3_70b', 'llama_2_70b', 'llama_2_13b', 'llama_2_7b', 'llama_3_8b']
-        self.path_name = home_path + "/results/"
+        self.path_name = os.path.join(home_path, "results/")
         self.iterations = iterations
 
     def run(self):
@@ -26,8 +29,7 @@ class ImplicitBias:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Process some arguments.')
-    parser.add_argument('--home_path', type=str, default="/msc_bias_llm_project/recreate_previous_experiments", help='Home path')
-    parser.add_argument('--bias', type=str, default="abuse", help='Bias')
+    parser.add_argument('--home_path', type=str, default=parent_dir, help='Home path')
     parser.add_argument('--iterations', type=int, nargs='+', default=list(range(3)), help='Iterations')
 
     args = parser.parse_args()

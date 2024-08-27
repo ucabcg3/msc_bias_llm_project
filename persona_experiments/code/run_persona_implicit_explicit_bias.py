@@ -1,17 +1,20 @@
 import pandas as pd
 import argparse
 from persona_implicit_explicit_bias import abuse_implicit_explicit_bias
+import os
+current_directory = os.getcwd()
+parent_dir = os.path.dirname(current_directory)
 
 class PersonaBias:
     def __init__(self, home_path, bias, iterations, models):
         self.home_path = home_path
         self.bias = bias
-        self.df = pd.read_csv(home_path + 'stimuli/{}_iat_stimuli.csv'.format(bias))
+        self.df = pd.read_csv(os.path.join(home_path,'stimuli/{}_iat_stimuli.csv'.format(bias)))
         self.domains = {k: [] for k in self.df['category'].unique()}
         for domain in self.domains.keys():
             self.domains[domain] = list(self.df['dataset'][self.df['category'] == domain].unique())
         self.models = models
-        self.path_name = home_path + "results/persona_{}_iat/".format(bias)
+        self.path_name = os.path.join(home_path, "results/persona_{}_iat/".format(bias))
         self.iterations = iterations
 
     def run(self):
@@ -32,7 +35,7 @@ def list_of_strings(arg):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Process some arguments.')
-    parser.add_argument('--home_path', type=str, default="/msc_bias_llm_project/persona_experiments/", help='Home path')
+    parser.add_argument('--home_path', type=str, default=parent_dir, help='Home path')
     parser.add_argument('--bias', type=str, default="abuse", help='Bias')
     parser.add_argument('--iterations', type=int, nargs='+', default=[1, 2, 3], help='Iterations')
     parser.add_argument('--models', type=list_of_strings, help='Models')
