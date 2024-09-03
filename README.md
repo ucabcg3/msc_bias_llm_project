@@ -15,7 +15,7 @@ There are three experiments included:
     - Inspired by the paper ["When Large Language Models contradict humans? Large Language Models’ Sycophantic Behaviour"](https://arxiv.org/abs/2311.09410), which has three sub-experiments to test sycophancy: a question without any additional information, a question with the correct answer given by the user, and a question with the incorrect answer given by the user.
     - This is expanded to be questions around abusive and controlling situations in relationships, to test the sycophantic behaviour of AI persona through that lens. See [here](/sycophancy_experiments/)
   
-## Directories Structure
+## Directory Structure
 Each experiment has within it five folders:
 - **code**: This contains all the code that needs to be run. This can be accessed directly through the files starting with "run_", where you can see the parameters that can also be changed. base_models.py initializes the models that are used in the code.
 - **stimuli**: This is the "datasets" the code pulls from when running. Please read the paper to understand how these are different for each experiment.
