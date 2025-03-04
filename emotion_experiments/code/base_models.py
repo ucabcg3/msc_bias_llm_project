@@ -1,6 +1,14 @@
 from langchain_community.chat_models import ChatOllama
 
 def get_all_models(temperature = 0, top_k = 1):
+    """
+    Get all available models in a dictionary.
+
+    Args:
+        temperature (int): the temperature you'd like to set the model at, e.g. 0
+        top_k (int): the top k value you'd like to set for the model, e.g. 1
+    """
+    
     llama_3_8b = ChatOllama(
         model="llama3:8b", 
         temperature=temperature,
@@ -61,4 +69,12 @@ def get_all_models(temperature = 0, top_k = 1):
     return models
 
 def get_model(model='llama_3_8b', temperature = 0, top_k = 1):
+    """
+    Get a specified model.
+
+    Args:
+        model (str): the model you want to use, e.g. 'llama_3_8b'
+        temperature (int): the temperature you'd like to set the model at, e.g. 0
+        top_k (int): the top k value you'd like to set for the model, e.g. 1
+    """
     return get_all_models(temperature, top_k)[model]
