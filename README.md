@@ -1,6 +1,6 @@
-# msc_bias_llm_project
+# AI Will Always Love You: Studying Implicit Biases in Romantic AI Companions
 
-MSc Project exploring how LLMs present biases when constrained to act as certain personas, specifically looking at gendered relationships, such as husband/wife and girlfriend/boyfriend, and variations of these.
+MSc Thesis ([read shortened version here](https://arxiv.org/pdf/2502.20231)) exploring how LLMs present biases when constrained to act as certain personas, specifically looking at gendered relationships, such as husband/wife and girlfriend/boyfriend, and variations of these. See sho
 
 ## Experiment Overview
 
